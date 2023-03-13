@@ -29,19 +29,20 @@ public class EmployeeOraDAOImpl implements IEmployeeDAO{
 	@Override
 	public List<Employee> getEmployees(){
 	
-		System.out.println("datasource impl class :: "+ds);
+		System.out.println("Datasource impl class :: "+ds.getClass());
 		
 		List<Employee> empList = new ArrayList<>();
 		
 		try {
 			Connection con = ds.getConnection();
-			System.out.println("connection impl class :: "+con);
+			System.out.println("Connection impl class :: "+con.getClass());
 			
 			PreparedStatement ps = con.prepareStatement(SELECT_QUERY);
-			System.out.println("PreparedStatement impl class :: "+ps);
+			System.out.println("PreparedStatement impl class :: "+ps.getClass());
 			
 			ResultSet rs = ps.executeQuery();
-			System.out.println("ResultSet impl class :: "+rs);
+			System.out.println("ResultSet impl class :: "+rs.getClass());
+			
 			
 			while(rs.next()) {
 				Employee emp = new Employee();
