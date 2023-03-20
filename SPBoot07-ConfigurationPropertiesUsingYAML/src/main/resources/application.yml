@@ -1,0 +1,41 @@
+add:
+  info:
+    city: Bangalore
+    stNo: 20
+    state: Karnataka
+    
+emp:
+  info:
+    addrs:
+      city: Mumbai
+      stNo: 40
+      state: MH
+      
+    details:
+      aadhar: 451123446799
+      panNo: POS12ESDC5
+      voterId: ATM01OUTRJ
+      
+    empno: 10
+    ename: Rolex
+    eno: 100
+    eph: 1234567890
+    
+    hobbies:
+      - Web Surfing
+      - Playing
+      - Travelling
+      - Cycling
+      - Music
+      - Gym
+    
+    phone-numbers:
+      - 6677889900
+      - 8899001122
+      - 4455663322
+    
+    studies:
+      - 10+2
+      - B.Tech
+      - M.Tech
+      
