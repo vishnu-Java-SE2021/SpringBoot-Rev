@@ -34,7 +34,7 @@ public class SPBoot08SpringBootProfilesLayeredApplicationUsingPropertiesFile {
 		
 		SpringApplication app = new SpringApplication(SPBoot08SpringBootProfilesLayeredApplicationUsingPropertiesFile.class);
 		
-		app.setAdditionalProfiles("prod");
+//		app.setAdditionalProfiles("prod");
 		
 		ApplicationContext ctx = app.run(args);
 	
